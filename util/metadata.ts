@@ -11,6 +11,9 @@ type PageMetadataInput = {
 
 /** Per-page metadata. Titles are wrapped by the root layout's title template. */
 export function pageMetadata({ title, description, path, image, noindex }: PageMetadataInput): Metadata {
+  // `<name>-share.jpg` is a 1200x630 copy under 150 KB: WhatsApp drops larger previews.
+  const share = image?.replace(/\.jpg$/, "-share.jpg");
+  const images = share ? [{ url: share, width: 1200, height: 630 }] : undefined;
   return {
     title,
     description,
@@ -23,13 +26,13 @@ export function pageMetadata({ title, description, path, image, noindex }: PageM
       title,
       description,
       url: path,
-      images: image ? [image] : undefined,
+      images,
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: image ? [image] : undefined,
+      images,
     },
   };
 }
