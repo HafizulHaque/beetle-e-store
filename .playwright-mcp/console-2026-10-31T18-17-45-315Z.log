@@ -1,0 +1,29 @@
+[   35140ms] [ERROR] Error: Route "/products/[slug]": Next.js encountered URL data during prerendering or a navigation.
+
+`params` or `searchParams` accessed outside of `<Suspense>` may prevent the navigation from being instant, leading to a slower user experience.
+
+Ways to fix this:
+  - [stream] Provide a placeholder with `<Suspense fallback={...}>` around the data access
+  - [block] Set `export const instant = false` to allow a blocking route
+
+Learn more: https://nextjs.org/docs/messages/instant-shell-url-data
+    at ProductPage (about://React/Server/file:///D:/sandbox/beetle-shop/.next/dev/server/chunks/ssr/%255Broot-of-the-server%255D__1oaifmwrpa03x._.js?id=%255Bproject%255D/app/products/%255Bslug%255D/page.tsx+%255Bapp-rsc%255D+(ecmascript)?82:51:22)
+    at resolveErrorDev (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2029:105)
+    at getOutlinedModel (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:1568:28)
+    at parseModelString (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:1688:50)
+    at reviveModel (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2634:66)
+    at reviveModel (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2637:61)
+    at reviveModel (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2716:112)
+    at parseModel (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2629:16)
+    at initializeModelChunk (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:1141:25)
+    at resolveModelChunk (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:1039:43)
+    at processFullStringRow (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2585:371)
+    at processFullBinaryRow (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2507:9)
+    at processBinaryChunk (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2614:221)
+    at progress (http://localhost:3000/_next/static/chunks/1usf_next_dist_compiled_react-server-dom-turbopack_18ks1ugxz5r6v._.js:2801:13) @ http://localhost:3000/_next/static/chunks/1usf_next_dist_08-qr1is__9t8._.js:995
+[   67589ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=EB6zoB1idG5IhVJDbf38V' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/1usf_next_dist_client_11j1wpowyuxqn._.js:16398
+[   68598ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=EB6zoB1idG5IhVJDbf38V' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/1usf_next_dist_client_11j1wpowyuxqn._.js:16398
+[   69616ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=EB6zoB1idG5IhVJDbf38V' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/1usf_next_dist_client_11j1wpowyuxqn._.js:16398
+[   70635ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=EB6zoB1idG5IhVJDbf38V' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/1usf_next_dist_client_11j1wpowyuxqn._.js:16398
+[   71654ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=EB6zoB1idG5IhVJDbf38V' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/1usf_next_dist_client_11j1wpowyuxqn._.js:16398
+[   78120ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/1usf_next_dist_08-qr1is__9t8._.js:719

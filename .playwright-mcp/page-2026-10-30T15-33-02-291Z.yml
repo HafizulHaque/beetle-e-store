@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Miah Farming" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=e5]
+      - generic [ref=e6]:
+        - navigation "ডেস্কটপ মেনু" [ref=e7]:
+          - link "পণ্যসমূহ" [ref=e8] [cursor=pointer]:
+            - /url: /products
+          - link "অর্ডার" [ref=e9] [cursor=pointer]:
+            - /url: /order
+        - link "কার্ট, 0টি পণ্য" [ref=e10] [cursor=pointer]:
+          - /url: /order
+  - main [ref=e15]:
+    - heading "আমাদের পণ্য" [level=1] [ref=e16]
+    - generic [ref=e17]:
+      - paragraph [ref=e18]: জৈব পদ্ধতিতে, নিজের খামারে তৈরি - আপনার পোষা শৌখিন পাখি, ময়ূর, আকুরিয়ামের মাছ ও সরীসৃপের প্রিয় উচ্চ প্রোটিনযুক্ত লাইভ ফুড।
+      - generic [ref=e19]: বেশি পরিমানে কিনলে বিশেষ ছাড় প্রযোজ্য!
+    - list [ref=e21]:
+      - listitem [ref=e22]:
+        - article [ref=e23]:
+          - generic [ref=e24]:
+            - link [ref=e25] [cursor=pointer]:
+              - /url: /products/beetle-larvae
+              - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=3] [ref=e26]
+            - link [ref=e27] [cursor=pointer]:
+              - /url: /products/beetle-larvae
+              - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=e28]
+            - generic [ref=e29]:
+              - group "পরিমাণ বেছে নিন" [ref=e30]:
+                - generic [ref=e33]:
+                  - button "২৫০ গ্রাম" [ref=e34] [cursor=pointer]
+                  - button "৳350" [ref=e35] [cursor=pointer]
+                - generic [ref=e38]:
+                  - button "৫০০ গ্রাম" [ref=e39] [cursor=pointer]
+                  - button "৳700 ৳600" [ref=e40] [cursor=pointer]:
+                    - generic [ref=e41]: ৳700
+                    - generic [ref=e42]: ৳600
+                - generic [ref=e44]:
+                  - button "১ কেজি" [ref=e45] [cursor=pointer]
+                  - button "৳1400 ৳1150" [ref=e46] [cursor=pointer]:
+                    - generic [ref=e47]: ৳1400
+                    - generic [ref=e48]: ৳1150
+              - paragraph [ref=e49]:
+                - text: বেশি কিনলে বিশেষ ছাড়! পাইকারি ছাড়ের জন্য
+                - link "হোয়াটসঅ্যাপে" [ref=e50] [cursor=pointer]:
+                  - /url: https://wa.me/8801824472549?text=%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%B2%20%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BE%20(%E0%A6%B8%E0%A7%81%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AE)%20-%20%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%9B%E0%A6%BE%E0%A6%A1%E0%A6%BC%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4
+                - text: জানান।
+              - button "কার্টে যোগ করুন" [disabled] [ref=e51]
+      - listitem [ref=e52]:
+        - article [ref=e53]:
+          - generic [ref=e54]:
+            - link [ref=e55] [cursor=pointer]:
+              - /url: /products/beetle-mother
+              - heading "বিটল মাদার পোকা" [level=3] [ref=e56]
+            - link [ref=e57] [cursor=pointer]:
+              - /url: /products/beetle-mother
+              - img "বিটল মাদার পোকা - ব্রিডিং স্টক" [ref=e58]
+            - generic [ref=e59]:
+              - group "পরিমাণ বেছে নিন" [ref=e60]:
+                - generic [ref=e63]:
+                  - button "১০০ পিস" [ref=e64] [cursor=pointer]
+                  - button "৳400 প্রতি পিস ৳4" [ref=e65] [cursor=pointer]:
+                    - generic [ref=e66]: ৳400
+                    - generic [ref=e67]: প্রতি পিস ৳4
+                - generic [ref=e69]:
+                  - button "২৫০ পিস" [ref=e70] [cursor=pointer]
+                  - button "৳1000 ৳875 প্রতি পিস ৳3.5" [ref=e71] [cursor=pointer]:
+                    - generic [ref=e72]: ৳1000
+                    - generic [ref=e73]: ৳875
+                    - generic [ref=e74]: প্রতি পিস ৳3.5
+                - generic [ref=e76]:
+                  - button "৫০০ পিস" [ref=e77] [cursor=pointer]
+                  - button "৳2000 ৳1600 প্রতি পিস ৳3.2" [ref=e78] [cursor=pointer]:
+                    - generic [ref=e79]: ৳2000
+                    - generic [ref=e80]: ৳1600
+                    - generic [ref=e81]: প্রতি পিস ৳3.2
+                - generic [ref=e83]:
+                  - button "১০০০ পিস" [ref=e84] [cursor=pointer]
+                  - button "৳4000 ৳3000 প্রতি পিস ৳3" [ref=e85] [cursor=pointer]:
+                    - generic [ref=e86]: ৳4000
+                    - generic [ref=e87]: ৳3000
+                    - generic [ref=e88]: প্রতি পিস ৳3
+              - paragraph [ref=e89]:
+                - text: বেশি কিনলে বিশেষ ছাড়! পাইকারি ছাড়ের জন্য
+                - link "হোয়াটসঅ্যাপে" [ref=e90] [cursor=pointer]:
+                  - /url: https://wa.me/8801824472549?text=%E0%A6%AC%E0%A6%BF%E0%A6%9F%E0%A6%B2%20%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0%20%E0%A6%AA%E0%A7%8B%E0%A6%95%E0%A6%BE%20-%20%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%20%E0%A6%9B%E0%A6%BE%E0%A6%A1%E0%A6%BC%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4
+                - text: জানান।
+              - button "কার্টে যোগ করুন" [disabled] [ref=e91]
+  - contentinfo [ref=e92]:
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: মিয়া ফার্মিং
+        - paragraph [ref=e96]: পাঁচদোনা, নরসিংদী
+      - generic [ref=e97]:
+        - heading "যোগাযোগ করুন" [level=2] [ref=e98]
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "হোয়াটসঅ্যাপ +880 1824-472549" [ref=e101] [cursor=pointer]:
+              - /url: https://wa.me/8801824472549
+              - generic [ref=e104]:
+                - generic [ref=e105]: হোয়াটসঅ্যাপ
+                - generic [ref=e106]: +880 1824-472549
+          - listitem [ref=e107]:
+            - link "ফেসবুক পেজ কৃষি ধরণী (Krishi Dharani)" [ref=e108] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%A7%E0%A6%B0%E0%A6%A3%E0%A7%80-Krishi-Dharani/61573546265465/
+              - generic [ref=e111]:
+                - generic [ref=e112]: ফেসবুক পেজ
+                - generic [ref=e113]: কৃষি ধরণী (Krishi Dharani)
+    - generic [ref=e115]:
+      - paragraph [ref=e116]: © 2026 মিয়া ফার্মিং। সর্বস্বত্ব সংরক্ষিত।
+      - paragraph [ref=e117]:
+        - text: Developed by
+        - link "Hafizul Haque" [ref=e118] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/hafizul-haque/
+  - link "WhatsApp-এ চ্যাট করুন" [ref=e119] [cursor=pointer]:
+    - /url: https://wa.me/8801824472549
+    - generic [ref=e122]: চ্যাট করুন
+  - button "Open Next.js Dev Tools" [ref=e128] [cursor=pointer]

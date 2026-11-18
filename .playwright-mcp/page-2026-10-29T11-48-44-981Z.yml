@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Miah Farming" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=e5]
+      - generic [ref=e6]:
+        - navigation "ডেস্কটপ মেনু" [ref=e7]:
+          - link "পণ্য" [ref=e8] [cursor=pointer]:
+            - /url: /products
+          - link "অর্ডার" [ref=e9] [cursor=pointer]:
+            - /url: /order
+        - link "কার্ট, 0টি পণ্য" [ref=e10] [cursor=pointer]:
+          - /url: /order
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "লাইভ বিটল লার্ভা ও মাদার পোকা" [level=1] [ref=e19]
+        - paragraph [ref=e20]: স্বাস্থ্যকর ও অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি। আপনার পোষা শৌখিন পাখি, ময়ূর, আকুরিয়ামের মাছ ও সরীসৃপের প্রিয় উচ্চ প্রোটিনযুক্ত লাইভ ফুড। বিটল লার্ভা (সুপারওয়ার্ম) উৎপাদনের জন্য মাদার পোকাও খুচরা ও পাইকারি পাওয়া যায়।
+        - generic [ref=e21]:
+          - link "সকল পণ্য দেখুন" [ref=e22] [cursor=pointer]:
+            - /url: /products
+          - link "হোয়াটসঅ্যাপে কথা বলুন" [ref=e23] [cursor=pointer]:
+            - /url: https://wa.me/8801824472549
+      - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=e25]
+    - generic [ref=e27]:
+      - heading "কেন বিটল লার্ভা কিনবেন" [level=2] [ref=e28]
+      - region "কীভাবে সুপারওয়ার্ম ব্যবহার করবেন" [ref=e29]:
+        - generic [ref=e30]:
+          - article "1 / 4" [ref=e31]:
+            - img "আকোয়ারিয়াম মাছের জন্য লাইভ সুপারওয়ার্ম" [ref=e33]
+            - generic [ref=e34]:
+              - heading "একুরিয়ামের মাছের জন্য" [level=3] [ref=e35]
+              - paragraph [ref=e36]: মাছ সাধারণ ফিড থেকে লাইভ ফুড বেশি পছন্দ করে।
+          - article "2 / 4" [ref=e37]:
+            - img "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য লাইভ সুপারওয়ার্ম" [ref=e39]
+            - generic [ref=e40]:
+              - heading "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য" [level=3] [ref=e41]
+              - paragraph [ref=e42]: প্রোটিন চাহিদা পূরণ করে, দৈহিক বৃদ্ধি ও ডিম উৎপাদন বাড়ায়।
+          - article "3 / 4" [ref=e43]:
+            - img "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য লাইভ সুপারওয়ার্ম" [ref=e45]
+            - generic [ref=e46]:
+              - heading "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য" [level=3] [ref=e47]
+              - paragraph [ref=e48]: পোষা সরীসৃপের সবচেয়ে প্রিয় লাইভ খাবার।
+          - article "4 / 4" [ref=e49]:
+            - img "নিজে সুপারওয়ার্ম চাষের জন্য মাদার পোকা" [ref=e51]
+            - generic [ref=e52]:
+              - heading "নিজে সুপারওয়ার্ম উৎপাদন করুন" [level=3] [ref=e53]
+              - paragraph [ref=e54]: মাদার পোকা কিনে বাড়িতেই সহজে নিজের সুপারওয়ার্ম তৈরি করুন।
+        - generic [ref=e55]:
+          - button "আগের স্লাইড" [ref=e56]: ‹
+          - generic [ref=e57]:
+            - button "স্লাইড 1" [ref=e58]
+            - button "স্লাইড 2" [ref=e59]
+            - button "স্লাইড 3" [ref=e60]
+            - button "স্লাইড 4" [ref=e61]
+          - button "পরের স্লাইড" [ref=e62]: ›
+    - list [ref=e63]:
+      - listitem [ref=e64]:
+        - paragraph [ref=e65]: অর্গানিক
+        - paragraph [ref=e66]: প্রাকৃতিক খাবার দিয়ে উৎপাদিত
+      - listitem [ref=e67]:
+        - paragraph [ref=e68]: নিজস্ব খামারে তৈরি
+        - paragraph [ref=e69]: বাড়িতে লালন-পালন করা পোকা
+      - listitem [ref=e70]:
+        - paragraph [ref=e71]: ভালো মান ও ফ্রেশ
+        - paragraph [ref=e72]: জীবন্ত ও ফ্রেশ অবস্থায় পাঠানো হয়
+    - generic [ref=e73]:
+      - heading "কি কি পাওয়া যায়" [level=2] [ref=e74]
+      - generic [ref=e75]:
+        - link [ref=e76] [cursor=pointer]:
+          - /url: /products/beetle-larvae
+          - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=3] [ref=e77]
+          - paragraph [ref=e78]: অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি ভালো মানের লাইভ সুপারওয়ার্ম। ফ্রেশ অবস্থায় পাঠানো হয়।
+        - link [ref=e79] [cursor=pointer]:
+          - /url: /products/beetle-mother
+          - heading "বিটল মা পোকা" [level=3] [ref=e80]
+          - paragraph [ref=e81]: নিজে সুপারওয়ার্ম উৎপাদন করতে চাইলে এই মাদার পোকা দিয়ে শুরু করুন।
+    - generic [ref=e83]:
+      - heading "কীভাবে অর্ডার করবেন" [level=2] [ref=e84]
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - generic [ref=e87]: "1"
+          - generic [ref=e88]: পণ্য বেছে নিন
+        - listitem [ref=e89]:
+          - generic [ref=e90]: "2"
+          - generic [ref=e91]: অর্ডার ফর্ম পূরণ করুন
+        - listitem [ref=e92]:
+          - generic [ref=e93]: "3"
+          - generic [ref=e94]: হোয়াটসঅ্যাপে অর্ডার পাঠান
+        - listitem [ref=e95]:
+          - generic [ref=e96]: "4"
+          - generic [ref=e97]: ডেলিভারিতে টাকা দিন
+    - generic [ref=e98]:
+      - heading "ডেলিভারি ও পেমেন্ট" [level=2] [ref=e99]
+      - list [ref=e100]:
+        - listitem [ref=e101]: নরসিংদী, ঢাকা ও নারায়ণগঞ্জে নিজস্ব লোকের মাধ্যমে অথবা স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e102]: সারা দেশে স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e103]: শুধু ক্যাশ অন ডেলিভারি। পণ্য হাতে পেয়ে টাকা দিন।
+        - listitem [ref=e104]: ডেলিভারি চার্জ হোয়াটসঅ্যাপে নিশ্চিত করা হবে।
+  - link "WhatsApp-এ চ্যাট করুন" [ref=e105] [cursor=pointer]:
+    - /url: https://wa.me/8801824472549
+    - generic [ref=e108]: চ্যাট করুন
+  - button "Open Next.js Dev Tools" [ref=e114] [cursor=pointer]

@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - button "মেনু খুলুন"
+      - link "Miah Farming" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=e8]
+      - generic [ref=e9]:
+        - navigation "ডেস্কটপ মেনু" [ref=e10]:
+          - link "পণ্যসমূহ" [ref=e11] [cursor=pointer]:
+            - /url: /products
+          - link "অর্ডার" [ref=e12] [cursor=pointer]:
+            - /url: /order
+        - link "কার্ট, 0টি পণ্য" [ref=e13] [cursor=pointer]:
+          - /url: /order
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "লাইভ বিটল লার্ভা ও মাদার পোকা" [level=1] [ref=e22]
+        - paragraph [ref=e23]: স্বাস্থ্যকর ও অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি। আপনার পোষা শৌখিন পাখি, ময়ূর, আকুরিয়ামের মাছ ও সরীসৃপের প্রিয় উচ্চ প্রোটিনযুক্ত লাইভ ফুড। বিটল লার্ভা (সুপারওয়ার্ম) উৎপাদনের জন্য মাদার পোকাও খুচরা ও পাইকারি পাওয়া যায়।
+        - generic [ref=e24]:
+          - link "সকল পণ্য দেখুন" [ref=e25] [cursor=pointer]:
+            - /url: /products
+          - link "হোয়াটসঅ্যাপে কথা বলুন" [ref=e26] [cursor=pointer]:
+            - /url: https://wa.me/8801824472549
+      - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=e27]
+    - generic [ref=e29]:
+      - heading "কেন বিটল লার্ভা কিনবেন" [level=2] [ref=e30]
+      - region "কীভাবে সুপারওয়ার্ম ব্যবহার করবেন" [ref=e31]:
+        - generic [ref=e32]:
+          - article "1 / 4" [ref=e33]:
+            - img "আকোয়ারিয়াম মাছের জন্য লাইভ সুপারওয়ার্ম" [ref=e34]
+            - generic [ref=e35]:
+              - heading "একুরিয়ামের মাছের জন্য" [level=3] [ref=e36]
+              - paragraph [ref=e37]: মাছ সাধারণ ফিড থেকে লাইভ ফুড বেশি পছন্দ করে।
+          - article "2 / 4" [ref=e38]:
+            - img "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য লাইভ সুপারওয়ার্ম" [ref=e39]
+            - generic [ref=e40]:
+              - heading "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য" [level=3] [ref=e41]
+              - paragraph [ref=e42]: প্রোটিন চাহিদা পূরণ করে, দৈহিক বৃদ্ধি ও ডিম উৎপাদন বাড়ায়।
+          - article "3 / 4" [ref=e43]:
+            - img "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য লাইভ সুপারওয়ার্ম" [ref=e44]
+            - generic [ref=e45]:
+              - heading "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য" [level=3] [ref=e46]
+              - paragraph [ref=e47]: পোষা সরীসৃপের সবচেয়ে প্রিয় লাইভ খাবার।
+          - article "4 / 4" [ref=e48]:
+            - img "নিজে সুপারওয়ার্ম চাষের জন্য মাদার পোকা" [ref=e49]
+            - generic [ref=e50]:
+              - heading "নিজে সুপারওয়ার্ম উৎপাদন করুন" [level=3] [ref=e51]
+              - paragraph [ref=e52]: মাদার পোকা কিনে বাড়িতেই সহজে নিজের সুপারওয়ার্ম তৈরি করুন।
+        - generic [ref=e53]:
+          - button "আগের স্লাইড" [ref=e54]: ‹
+          - generic [ref=e55]:
+            - button "স্লাইড 1"
+            - button "স্লাইড 2"
+            - button "স্লাইড 3"
+            - button "স্লাইড 4"
+          - button "পরের স্লাইড" [ref=e56]: ›
+    - list [ref=e57]:
+      - listitem [ref=e58]:
+        - paragraph [ref=e59]: অর্গানিক
+        - paragraph [ref=e60]: প্রাকৃতিক খাবার দিয়ে উৎপাদিত
+      - listitem [ref=e61]:
+        - paragraph [ref=e62]: নিজস্ব খামারে তৈরি
+        - paragraph [ref=e63]: বাড়িতে লালন-পালন করা পোকা
+      - listitem [ref=e64]:
+        - paragraph [ref=e65]: ভালো মান ও ফ্রেশ
+        - paragraph [ref=e66]: জীবন্ত ও ফ্রেশ অবস্থায় পাঠানো হয়
+    - generic [ref=e67]:
+      - heading "কি কি পাওয়া যায়" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - link [ref=e70] [cursor=pointer]:
+          - /url: /products/beetle-larvae
+          - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=3] [ref=e71]
+          - paragraph [ref=e72]: অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি ভালো মানের লাইভ সুপারওয়ার্ম। ফ্রেশ অবস্থায় পাঠানো হয়।
+        - link [ref=e73] [cursor=pointer]:
+          - /url: /products/beetle-mother
+          - heading "বিটল মাদার পোকা" [level=3] [ref=e74]
+          - paragraph [ref=e75]: নিজে সুপারওয়ার্ম উৎপাদন করতে চাইলে এই মাদার পোকা দিয়ে শুরু করুন।
+    - generic [ref=e77]:
+      - heading "কীভাবে অর্ডার করবেন" [level=2] [ref=e78]
+      - list [ref=e79]:
+        - listitem [ref=e80]: 1পণ্য পছন্দ করুন
+        - listitem [ref=e81]: 2অর্ডার ফর্ম পূরণ করুন
+        - listitem [ref=e82]: 3হোয়াটসঅ্যাপে অর্ডার কনফার্ম করুন
+        - listitem [ref=e83]: 4ডেলিভারির পর টাকা পরিশোধ করুন
+    - generic [ref=e84]:
+      - heading "ডেলিভারি ও পেমেন্ট" [level=2] [ref=e85]
+      - list [ref=e86]:
+        - listitem [ref=e87]: ঢাকা, নরসিংদী ও নারায়ণগঞ্জে নিজস্ব লোকের মাধ্যমে অথবা স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e88]: সারা দেশে স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e89]: ডেলিভারি চার্জ হোয়াটসঅ্যাপে নিশ্চিত করা হবে।
+        - listitem [ref=e90]: ক্যাশ অন ডেলিভারি। পণ্য হাতে পেয়ে টাকা পরিশোধ করুন।
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: মিয়া ফার্মিং
+        - paragraph [ref=e95]: পাঁচদোনা, নরসিংদী
+      - generic [ref=e96]:
+        - heading "যোগাযোগ করুন" [level=2] [ref=e97]
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "হোয়াটসঅ্যাপ+880 1824-472549" [ref=e100] [cursor=pointer]:
+              - /url: https://wa.me/8801824472549
+          - listitem [ref=e104]:
+            - link "ফেসবুক পেজকৃষি ধরণী (Krishi Dharani)" [ref=e105] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%A7%E0%A6%B0%E0%A6%A3%E0%A7%80-Krishi-Dharani/61573546265465/
+    - generic [ref=e110]:
+      - paragraph [ref=e111]: © 2026 মিয়া ফার্মিং। সর্বস্বত্ব সংরক্ষিত।
+      - paragraph [ref=e112]:
+        - text: Developed by
+        - link "Hafizul Haque" [ref=e113] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/hafizul-haque/
+  - link "WhatsApp-এ চ্যাট করুন" [ref=e114] [cursor=pointer]:
+    - /url: https://wa.me/8801824472549
+    - text: চ্যাট করুন
+  - button "Open Next.js Dev Tools" [ref=e122] [cursor=pointer]
