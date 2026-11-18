@@ -4,6 +4,6 @@ export const PRODUCT_DETAIL = {
   inStock: "স্টকে আছে",
   outOfStock: "এখন স্টকে নেই",
   askOnWhatsapp: "হোয়াটসঅ্যাপে জিজ্ঞাসা করুন",
-  outOfStockMessage: (name: string) => `${name} সম্পর্কে জানতে চাই।`,
+  outOfStockMessage: (name: string) => `${name} কবে পাওয়া যাবে?`,
   relatedHeading: "সম্পর্কিত পণ্য",
 };

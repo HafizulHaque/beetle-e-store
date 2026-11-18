@@ -25,5 +25,11 @@ export function pageMetadata({ title, description, path, image, noindex }: PageM
       url: path,
       images: image ? [image] : undefined,
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: image ? [image] : undefined,
+    },
   };
 }

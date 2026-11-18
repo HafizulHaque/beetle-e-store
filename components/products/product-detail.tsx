@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PRODUCT_DETAIL, ROUTES } from "@/contents";
-import { ButtonLink } from "@/components/ui";
 import type { Product } from "@/lib/types";
-import { whatsappUrl } from "@/util/whatsapp";
 import { ProductPurchase } from "./product-purchase";
 import { RelatedProductLink } from "./related-product-link";
 import { StockBadge } from "./stock-badge";
@@ -62,19 +60,7 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
             <StockBadge inStock={product.inStock} />
           </header>
 
-          {product.inStock ? (
-            <ProductPurchase product={product} />
-          ) : (
-            <ButtonLink
-              href={whatsappUrl(PRODUCT_DETAIL.outOfStockMessage(product.name))}
-              target="_blank"
-              rel="noopener noreferrer"
-              size="lg"
-              className="rounded-lg px-4"
-            >
-              {PRODUCT_DETAIL.askOnWhatsapp}
-            </ButtonLink>
-          )}
+          <ProductPurchase product={product} />
         </div>
       </div>
     </article>

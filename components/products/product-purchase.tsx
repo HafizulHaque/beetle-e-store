@@ -1,18 +1,20 @@
 "use client";
 
-import { PURCHASE, ROUTES } from "@/contents";
+import { PRODUCT_DETAIL, PURCHASE, ROUTES } from "@/contents";
 import { Button, ButtonLink } from "@/components/ui";
 import { addToCart, setCartQty, useCart } from "@/lib/cart";
 import { perPieceText } from "@/lib/products";
 import type { Product } from "@/lib/types";
 import { formatBdt } from "@/util/format";
+import { whatsappUrl } from "@/util/whatsapp";
 import { MinusIcon, PlusIcon } from "@/components/icons/ui-icons";
 import { WholesaleOffer } from "./wholesale-offer";
 
 export function ProductPurchase({ product }: { product: Product }) {
   const cart = useCart();
+  const { inStock } = product;
   const qtyOf = (tierId: string) =>
-    cart.find((i) => i.slug === product.slug && i.tier === tierId)?.qty ?? 0;
+    inStock ? (cart.find((i) => i.slug === product.slug && i.tier === tierId)?.qty ?? 0) : 0;
   const hasSelection = product.tiers.some((t) => qtyOf(t.id) > 0);
 
   return (
@@ -29,16 +31,17 @@ export function ProductPurchase({ product }: { product: Product }) {
               key={t.id}
               className={`rounded-lg ring-1 ${
                 selected ? "bg-brand ring-2 ring-ink" : "bg-white ring-zinc-300"
-              }`}
+              } ${inStock ? "" : "opacity-50"}`}
             >
               <div className="flex items-center gap-2 px-3 py-2">
                 <button
                   type="button"
+                  disabled={!inStock}
                   aria-pressed={selected}
                   onClick={() => {
                     if (!selected) addToCart(product.slug, t.id);
                   }}
-                  className="min-w-0 flex-1 cursor-pointer text-left leading-none font-bold"
+                  className="min-w-0 flex-1 cursor-pointer text-left leading-none font-bold disabled:cursor-not-allowed"
                 >
                   {t.label}
                 </button>
@@ -70,10 +73,11 @@ export function ProductPurchase({ product }: { product: Product }) {
                 <button
                   type="button"
                   tabIndex={-1}
+                  disabled={!inStock}
                   onClick={() => {
                     if (!selected) addToCart(product.slug, t.id);
                   }}
-                  className="w-20 shrink-0 cursor-pointer text-right md:w-28"
+                  className="w-20 shrink-0 cursor-pointer text-right disabled:cursor-not-allowed md:w-28"
                 >
                   <s
                     className={`block text-xs text-zinc-600 ${hasOffer ? "" : "invisible"}`}
@@ -95,7 +99,17 @@ export function ProductPurchase({ product }: { product: Product }) {
 
       <WholesaleOffer offer={product.wholesaleOffer} className="text-sm font-medium text-zinc-700" />
 
-      {hasSelection ? (
+      {!inStock ? (
+        <ButtonLink
+          href={whatsappUrl(PRODUCT_DETAIL.outOfStockMessage(product.name))}
+          target="_blank"
+          rel="noopener noreferrer"
+          size="lg"
+          className="w-full rounded-lg px-4"
+        >
+          {PRODUCT_DETAIL.askOnWhatsapp}
+        </ButtonLink>
+      ) : hasSelection ? (
         <ButtonLink href={ROUTES.order} size="lg" className="w-full rounded-lg px-4">
           {PURCHASE.orderNow}
         </ButtonLink>

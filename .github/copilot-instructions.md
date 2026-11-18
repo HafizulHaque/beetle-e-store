@@ -31,8 +31,8 @@ Miah Farming: a Bangla-language storefront selling live beetle larvae and mother
 - `next.config.ts` enables several non-default features that shape how code should be written:
   - `cacheComponents: true`: pages render a static shell by default. Request-time reads (cookies, headers, `connection()`, uncached fetches) must sit behind `<Suspense>`, and data work is cached with `"use cache"`.
   - `partialPrefetching: true` and `experimental.agentFeedback: true`.
-- Static assets live in `public/`, referenced by absolute path (e.g. `/images/superworm.png`).
-- The home page has a use-case slider (`components/home/use-case-slider.tsx`, autoplay interval from `HOME.useCase.intervalMs`). Its slides are PNG images in `public/images/slides/` (SEO-named, e.g. `fish-aquarium-live-food.png`), listed in `HOME.useCase.slides` in `contents/home.ts`. Add new slides by adding an image there and a matching entry.
+- Static assets live in `public/`, referenced by absolute path (e.g. `/images/superworm.jpg`).
+- The home page has a use-case slider (`components/home/use-case-slider.tsx`, autoplay interval from `HOME.useCase.intervalMs`). Its slides are JPEG images in `public/images/slides/` (SEO-named, e.g. `fish-aquarium-live-food.jpg`), listed in `HOME.useCase.slides` in `contents/home.ts`. Add new slides by adding an image there and a matching entry.
 - `components/home/trust-strip.tsx` shows the organic, home-grown, and quality messages on the home page.
 - SEO: page titles and descriptions come from `SEO` in `contents/seo.ts`, and per-page metadata is built with `pageMetadata` from `util/metadata.ts`. Root metadata lives in `app/layout.tsx`.
 

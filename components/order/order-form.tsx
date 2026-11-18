@@ -152,7 +152,7 @@ export function OrderForm() {
           )}
         </fieldset>
 
-        <FormField label={ORDER_FORM.fields.note}>
+        <FormField label={ORDER_FORM.fields.note} error={errors.note}>
           <Textarea
             name="note"
             rows={2}

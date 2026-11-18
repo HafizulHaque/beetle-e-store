@@ -47,12 +47,12 @@ const deliveryMethodKeys = Object.keys(DELIVERY_METHODS) as [DeliveryMethod, ...
 
 export const orderFormSchema = z
   .object({
-    name: z.string().trim().min(2, ORDER_FORM.errors.name),
+    name: z.string().trim().min(2, ORDER_FORM.errors.name).max(100, ORDER_FORM.errors.name),
     phone: z.string().refine(isBdMobile, ORDER_FORM.errors.phone),
-    address: z.string().trim().min(5, ORDER_FORM.errors.address),
+    address: z.string().trim().min(5, ORDER_FORM.errors.address).max(300, ORDER_FORM.errors.address),
     district: z.string().refine((d) => DISTRICTS.includes(d), ORDER_FORM.errors.district),
     method: z.enum(deliveryMethodKeys, { error: ORDER_FORM.errors.method }),
-    note: z.string(),
+    note: z.string().max(500, ORDER_FORM.errors.note),
   })
   .superRefine((form, ctx) => {
     if (!methodsFor(form.district).includes(form.method)) {

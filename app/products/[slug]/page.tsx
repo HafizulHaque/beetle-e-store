@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { ProductDetail } from "@/components/products";
 import { JsonLd } from "@/components/seo";
 import { PRODUCTS } from "@/contents";
-import { getProduct, productPath, productSchema } from "@/lib";
+import { getProduct, breadcrumbSchema, productPath, productSchema } from "@/lib";
 import { pageMetadata } from "@/util/metadata";
 
 export function generateStaticParams() {
@@ -35,6 +35,7 @@ async function ProductContent({ params }: Pick<PageProps<"/products/[slug]">, "p
   return (
     <>
       <JsonLd data={productSchema(product)} />
+      <JsonLd data={breadcrumbSchema(product)} />
       <ProductDetail product={product} related={related} />
     </>
   );

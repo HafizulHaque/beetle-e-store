@@ -19,25 +19,25 @@ export const HOME = {
     intervalMs: 5000,
     slides: [
       {
-        src: "/images/slides/fish-aquarium-live-food.png",
+        src: "/images/slides/fish-aquarium-live-food.jpg",
         title: "একুরিয়ামের মাছের জন্য",
         text: "মাছ সাধারণ ফিড থেকে লাইভ ফুড বেশি পছন্দ করে।",
         alt: "আকোয়ারিয়াম মাছের জন্য লাইভ সুপারওয়ার্ম",
       },
       {
-        src: "/images/slides/birds-live-food-nutrition.png",
+        src: "/images/slides/birds-live-food-nutrition.jpg",
         title: "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য",
         text: "প্রোটিন চাহিদা পূরণ করে, দৈহিক বৃদ্ধি ও ডিম উৎপাদন বাড়ায়।",
         alt: "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য লাইভ সুপারওয়ার্ম",
       },
       {
-        src: "/images/slides/reptiles-live-food-nutrition.png",
+        src: "/images/slides/reptiles-live-food-nutrition.jpg",
         title: "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য",
         text: "পোষা সরীসৃপের সবচেয়ে প্রিয় লাইভ খাবার।",
         alt: "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য লাইভ সুপারওয়ার্ম",
       },
       {
-        src: "/images/slides/grow-your-own-superworm-breeding.png",
+        src: "/images/slides/grow-your-own-superworm-breeding.jpg",
         title: "নিজে সুপারওয়ার্ম উৎপাদন করুন",
         text: "মাদার পোকা কিনে বাড়িতেই সহজে নিজের সুপারওয়ার্ম তৈরি করুন।",
         alt: "নিজে সুপারওয়ার্ম চাষের জন্য মাদার পোকা",

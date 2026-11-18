@@ -1,4 +1,4 @@
-import { BUSINESS, HOME, SEO } from "@/contents";
+import { BUSINESS, HOME, PRODUCT_DETAIL, ROUTES, SEO } from "@/contents";
 import { absoluteUrl, SITE_URL } from "@/util";
 import { getProduct, productPath, tierPrice } from "./products";
 import type { Product } from "./types";
@@ -24,6 +24,17 @@ export function localBusinessSchema() {
       "@type": "AdministrativeArea",
       name,
     })),
+  };
+}
+
+export function breadcrumbSchema(product: Product) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: PRODUCT_DETAIL.breadcrumbLabel, item: absoluteUrl(ROUTES.products) },
+      { "@type": "ListItem", position: 2, name: product.name, item: absoluteUrl(productPath(product.slug)) },
+    ],
   };
 }
 
