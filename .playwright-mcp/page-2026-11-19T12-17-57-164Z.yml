@@ -1,0 +1,89 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - button "মেনু খুলুন" [ref=f5e6] [cursor=pointer]
+      - link "Miah Farming" [ref=f5e9] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=f5e10]
+      - link "কার্ট, 0টি পণ্য" [ref=f5e12] [cursor=pointer]:
+        - /url: /order
+  - article [ref=f5e17]:
+    - navigation "পণ্য সমূহ" [ref=f5e18]:
+      - list [ref=f5e19]:
+        - listitem [ref=f5e20]:
+          - link "পণ্য সমূহ" [ref=f5e21] [cursor=pointer]:
+            - /url: /products
+        - listitem [aria-hidden] [ref=f5e22]: /
+        - listitem [ref=f5e23]: বিটল লার্ভা (সুপারওয়ার্ম)
+    - generic [ref=f5e24]:
+      - generic [ref=f5e25]:
+        - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=f5e27]
+        - generic [ref=f5e28]:
+          - heading "কীভাবে ব্যবহার করবেন" [level=2] [ref=f5e29]
+          - list [ref=f5e30]:
+            - listitem [ref=f5e31]: "আকোয়ারিয়াম মাছ: লাইভ সুপারওয়ার্ম মাছের প্রিয় খাবার"
+            - listitem [ref=f5e32]: "পাখি: ময়ূর, মুরগি ও অন্যান্য পোষা পাখির জন্য"
+            - listitem [ref=f5e33]: "সরীসৃপ: টিকটিকি ও অন্যান্য সরীসৃপের জন্য"
+        - generic [ref=f5e34]:
+          - heading "সম্পর্কিত পণ্য" [level=2] [ref=f5e35]
+          - link [ref=f5e36] [cursor=pointer]:
+            - /url: /products/beetle-mother
+            - generic [ref=f5e38]:
+              - paragraph [ref=f5e39]: বিটল মাদার পোকা
+              - paragraph [ref=f5e40]: নিজে সুপারওয়ার্ম উৎপাদন করতে চাইলে এই মাদার পোকা দিয়ে শুরু করুন।
+      - generic [ref=f5e41]:
+        - generic [ref=f5e42]:
+          - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=1] [ref=f5e43]
+          - paragraph [ref=f5e44]: অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি ভালো মানের লাইভ সুপারওয়ার্ম। ফ্রেশ অবস্থায় পাঠানো হয়।
+          - generic [ref=f5e45]: স্টকে আছে
+        - generic [ref=f5e47]:
+          - group "পরিমাণ বেছে নিন" [ref=f5e48]:
+            - generic [ref=f5e51]:
+              - button "২৫০ গ্রাম" [ref=f5e52] [cursor=pointer]
+              - button "৳350" [ref=f5e53] [cursor=pointer]
+            - generic [ref=f5e56]:
+              - button "৫০০ গ্রাম" [ref=f5e57] [cursor=pointer]
+              - button "৳700 ৳600" [ref=f5e58] [cursor=pointer]:
+                - generic [ref=f5e59]: ৳700
+                - generic [ref=f5e60]: ৳600
+            - generic [ref=f5e62]:
+              - button "১ কেজি" [ref=f5e63] [cursor=pointer]
+              - button "৳1400 ৳1150" [ref=f5e64] [cursor=pointer]:
+                - generic [ref=f5e65]: ৳1400
+                - generic [ref=f5e66]: ৳1150
+          - paragraph [ref=f5e67]:
+            - text: বেশি কিনলে বিশেষ ছাড়! পাইকারি ছাড়ের জন্য
+            - link "হোয়াটসঅ্যাপে" [ref=f5e68] [cursor=pointer]:
+              - /url: https://wa.me/8801775886352
+            - text: জানান।
+          - button "কার্টে যোগ করুন" [disabled] [ref=f5e69]
+  - contentinfo [ref=f5e70]:
+    - generic [ref=f5e71]:
+      - generic [ref=f5e72]:
+        - paragraph [ref=f5e73]: মিয়া ফার্মিং
+        - paragraph [ref=f5e74]: পাঁচদোনা, নরসিংদী
+      - generic [ref=f5e75]:
+        - heading "যোগাযোগ করুন" [level=2] [ref=f5e76]
+        - list [ref=f5e77]:
+          - listitem [ref=f5e78]:
+            - link "হোয়াটসঅ্যাপ +880 1775-886352" [ref=f5e79] [cursor=pointer]:
+              - /url: https://wa.me/8801775886352
+              - generic [ref=f5e82]:
+                - generic [ref=f5e83]: হোয়াটসঅ্যাপ
+                - generic [ref=f5e84]: +880 1775-886352
+          - listitem [ref=f5e85]:
+            - link "ফেসবুক পেজ কৃষি ধরণী (Krishi Dharani)" [ref=f5e86] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%A7%E0%A6%B0%E0%A6%A3%E0%A7%80-Krishi-Dharani/61573546265465/
+              - generic [ref=f5e89]:
+                - generic [ref=f5e90]: ফেসবুক পেজ
+                - generic [ref=f5e91]: কৃষি ধরণী (Krishi Dharani)
+    - generic [ref=f5e93]:
+      - paragraph [ref=f5e94]: © 2026 মিয়া ফার্মিং। সর্বস্বত্ব সংরক্ষিত।
+      - paragraph [ref=f5e95]:
+        - text: Developed by
+        - link "Hafizul Haque" [ref=f5e96] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/hafizul-haque/
+  - link "WhatsApp-এ চ্যাট করুন" [ref=f5e97] [cursor=pointer]:
+    - /url: https://wa.me/8801775886352
+    - generic [ref=f5e100]: চ্যাট করুন
+  - button "Open Next.js Dev Tools" [ref=f5e106] [cursor=pointer]

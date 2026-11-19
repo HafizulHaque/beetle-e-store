@@ -5,7 +5,7 @@ import type { Product } from "@/lib/types";
 import { ProductPurchase } from "./product-purchase";
 import { StockBadge } from "./stock-badge";
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, isFirst }: { product: Product; isFirst: boolean }) {
   const href = productPath(product.slug);
 
   return (
@@ -18,7 +18,9 @@ export function ProductCard({ product }: { product: Product }) {
           src={product.image}
           alt={product.imageAlt}
           fill
-          sizes="(min-width: 1152px) 560px, (min-width: 768px) 50vw, 100vw"
+          loading={isFirst ? "eager" : "lazy"}
+          fetchPriority={isFirst ? "high" : "auto"}
+          sizes="(min-width: 1152px) 544px, (min-width: 768px) calc((100vw - 64px) / 2), calc(100vw - 32px)"
           className="object-cover"
         />
       </Link>

@@ -1,0 +1,118 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - button "মেনু খুলুন" [ref=f3e6] [cursor=pointer]
+      - link "Miah Farming" [ref=f3e9] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=f3e10]
+      - link "কার্ট, 0টি পণ্য" [ref=f3e12] [cursor=pointer]:
+        - /url: /order
+  - main [ref=f3e17]:
+    - generic [ref=f3e18]:
+      - heading "আমাদের পণ্য" [level=1] [ref=f3e19]
+      - generic [ref=f3e20]:
+        - paragraph [ref=f3e21]: জৈব পদ্ধতিতে, নিজের খামারে তৈরি - আপনার পোষা শৌখিন পাখি, ময়ূর, আকুরিয়ামের মাছ ও সরীসৃপের প্রিয় উচ্চ প্রোটিনযুক্ত লাইভ ফুড।
+        - generic [ref=f3e22]: বেশি পরিমানে কিনলে বিশেষ ছাড় প্রযোজ্য!
+    - list [ref=f3e24]:
+      - listitem [ref=f3e25]:
+        - article [ref=f3e26]:
+          - link [ref=f3e27] [cursor=pointer]:
+            - /url: /products/beetle-larvae
+            - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=f3e28]
+          - generic [ref=f3e29]:
+            - link [ref=f3e30] [cursor=pointer]:
+              - /url: /products/beetle-larvae
+              - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=3] [ref=f3e31]
+            - generic [ref=f3e32]: স্টকে আছে
+            - generic [ref=f3e34]:
+              - group "পরিমাণ বেছে নিন" [ref=f3e35]:
+                - generic [ref=f3e38]:
+                  - button "২৫০ গ্রাম" [ref=f3e39] [cursor=pointer]
+                  - button "৳350" [ref=f3e40] [cursor=pointer]
+                - generic [ref=f3e43]:
+                  - button "৫০০ গ্রাম" [ref=f3e44] [cursor=pointer]
+                  - button "৳700 ৳600" [ref=f3e45] [cursor=pointer]:
+                    - generic [ref=f3e46]: ৳700
+                    - generic [ref=f3e47]: ৳600
+                - generic [ref=f3e49]:
+                  - button "১ কেজি" [ref=f3e50] [cursor=pointer]
+                  - button "৳1400 ৳1150" [ref=f3e51] [cursor=pointer]:
+                    - generic [ref=f3e52]: ৳1400
+                    - generic [ref=f3e53]: ৳1150
+              - paragraph [ref=f3e54]:
+                - text: বেশি কিনলে বিশেষ ছাড়! পাইকারি ছাড়ের জন্য
+                - link "হোয়াটসঅ্যাপে" [ref=f3e55] [cursor=pointer]:
+                  - /url: https://wa.me/8801775886352
+                - text: জানান।
+              - button "কার্টে যোগ করুন" [disabled] [ref=f3e56]
+      - listitem [ref=f3e57]:
+        - article [ref=f3e58]:
+          - link [ref=f3e59] [cursor=pointer]:
+            - /url: /products/beetle-mother
+            - img "বিটল মাদার পোকা - ব্রিডিং স্টক" [ref=f3e60]
+          - generic [ref=f3e61]:
+            - link [ref=f3e62] [cursor=pointer]:
+              - /url: /products/beetle-mother
+              - heading "বিটল মাদার পোকা" [level=3] [ref=f3e63]
+            - generic [ref=f3e64]: স্টকে আছে
+            - generic [ref=f3e66]:
+              - group "পরিমাণ বেছে নিন" [ref=f3e67]:
+                - generic [ref=f3e70]:
+                  - button "১০০ পিস" [ref=f3e71] [cursor=pointer]
+                  - button "৳400 প্রতি পিস ৳4" [ref=f3e72] [cursor=pointer]:
+                    - generic [ref=f3e73]: ৳400
+                    - generic [ref=f3e74]: প্রতি পিস ৳4
+                - generic [ref=f3e76]:
+                  - button "২৫০ পিস" [ref=f3e77] [cursor=pointer]
+                  - button "৳1000 ৳875 প্রতি পিস ৳3.5" [ref=f3e78] [cursor=pointer]:
+                    - generic [ref=f3e79]: ৳1000
+                    - generic [ref=f3e80]: ৳875
+                    - generic [ref=f3e81]: প্রতি পিস ৳3.5
+                - generic [ref=f3e83]:
+                  - button "৫০০ পিস" [ref=f3e84] [cursor=pointer]
+                  - button "৳2000 ৳1600 প্রতি পিস ৳3.2" [ref=f3e85] [cursor=pointer]:
+                    - generic [ref=f3e86]: ৳2000
+                    - generic [ref=f3e87]: ৳1600
+                    - generic [ref=f3e88]: প্রতি পিস ৳3.2
+                - generic [ref=f3e90]:
+                  - button "১০০০ পিস" [ref=f3e91] [cursor=pointer]
+                  - button "৳4000 ৳3000 প্রতি পিস ৳3" [ref=f3e92] [cursor=pointer]:
+                    - generic [ref=f3e93]: ৳4000
+                    - generic [ref=f3e94]: ৳3000
+                    - generic [ref=f3e95]: প্রতি পিস ৳3
+              - paragraph [ref=f3e96]:
+                - text: বেশি কিনলে বিশেষ ছাড়! পাইকারি ছাড়ের জন্য
+                - link "হোয়াটসঅ্যাপে" [ref=f3e97] [cursor=pointer]:
+                  - /url: https://wa.me/8801775886352
+                - text: জানান।
+              - button "কার্টে যোগ করুন" [disabled] [ref=f3e98]
+  - contentinfo [ref=f3e99]:
+    - generic [ref=f3e100]:
+      - generic [ref=f3e101]:
+        - paragraph [ref=f3e102]: মিয়া ফার্মিং
+        - paragraph [ref=f3e103]: পাঁচদোনা, নরসিংদী
+      - generic [ref=f3e104]:
+        - heading "যোগাযোগ করুন" [level=2] [ref=f3e105]
+        - list [ref=f3e106]:
+          - listitem [ref=f3e107]:
+            - link "হোয়াটসঅ্যাপ +880 1775-886352" [ref=f3e108] [cursor=pointer]:
+              - /url: https://wa.me/8801775886352
+              - generic [ref=f3e111]:
+                - generic [ref=f3e112]: হোয়াটসঅ্যাপ
+                - generic [ref=f3e113]: +880 1775-886352
+          - listitem [ref=f3e114]:
+            - link "ফেসবুক পেজ কৃষি ধরণী (Krishi Dharani)" [ref=f3e115] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%A7%E0%A6%B0%E0%A6%A3%E0%A7%80-Krishi-Dharani/61573546265465/
+              - generic [ref=f3e118]:
+                - generic [ref=f3e119]: ফেসবুক পেজ
+                - generic [ref=f3e120]: কৃষি ধরণী (Krishi Dharani)
+    - generic [ref=f3e122]:
+      - paragraph [ref=f3e123]: © 2026 মিয়া ফার্মিং। সর্বস্বত্ব সংরক্ষিত।
+      - paragraph [ref=f3e124]:
+        - text: Developed by
+        - link "Hafizul Haque" [ref=f3e125] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/hafizul-haque/
+  - link "WhatsApp-এ চ্যাট করুন" [ref=f3e126] [cursor=pointer]:
+    - /url: https://wa.me/8801775886352
+    - generic [ref=f3e129]: চ্যাট করুন
+  - button "Open Next.js Dev Tools" [ref=f3e135] [cursor=pointer]

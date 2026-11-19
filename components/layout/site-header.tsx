@@ -18,11 +18,12 @@ export function SiteHeader() {
           className="justify-self-center md:justify-self-start"
         >
           <Image
-            src="/images/miah-farming-logo.png"
+            src="/images/miah-farming-logo-264.webp"
             alt={BUSINESS.nameEn}
-            width={1536}
-            height={768}
-            priority
+            width={88}
+            height={44}
+            unoptimized
+            loading="eager"
             className="h-11 w-auto"
           />
         </Link>

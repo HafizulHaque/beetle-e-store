@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Miah Farming" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Miah Farming" [ref=e5]
+      - generic [ref=e6]:
+        - navigation "ডেস্কটপ মেনু" [ref=e7]:
+          - link "পণ্যসমূহ" [ref=e8] [cursor=pointer]:
+            - /url: /products
+          - link "অর্ডার" [ref=e9] [cursor=pointer]:
+            - /url: /order
+        - link "কার্ট, 0টি পণ্য" [ref=e10] [cursor=pointer]:
+          - /url: /order
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "লাইভ বিটল লার্ভা ও মাদার পোকা" [level=1] [ref=e19]
+        - paragraph [ref=e20]: স্বাস্থ্যকর ও অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি। আপনার পোষা শৌখিন পাখি, ময়ূর, আকুরিয়ামের মাছ ও সরীসৃপের প্রিয় উচ্চ প্রোটিনযুক্ত লাইভ ফুড। বিটল লার্ভা (সুপারওয়ার্ম) উৎপাদনের জন্য মাদার পোকাও খুচরা ও পাইকারি পাওয়া যায়।
+        - generic [ref=e21]:
+          - link "সকল পণ্য দেখুন" [ref=e22] [cursor=pointer]:
+            - /url: /products
+          - link "হোয়াটসঅ্যাপে কথা বলুন" [ref=e23] [cursor=pointer]:
+            - /url: https://wa.me/8801775886352
+      - generic [ref=e24]:
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /products/beetle-larvae
+          - img "বিটল লার্ভা (সুপারওয়ার্ম) - লাইভ খাবার" [ref=e26]
+        - link [aria-hidden]:
+          - /url: /products/beetle-mother
+    - generic [ref=e27]:
+      - heading "কেন বিটল লার্ভা কিনবেন" [level=2] [ref=e28]
+      - region "কীভাবে সুপারওয়ার্ম ব্যবহার করবেন" [ref=e29]:
+        - generic [ref=e30]:
+          - article "1 / 4" [ref=e31]:
+            - img "আকোয়ারিয়াম মাছের জন্য লাইভ সুপারওয়ার্ম" [ref=e33]
+            - generic [ref=e34]:
+              - heading "একুরিয়ামের মাছের জন্য" [level=3] [ref=e35]
+              - paragraph [ref=e36]: মাছ সাধারণ ফিড থেকে লাইভ ফুড বেশি পছন্দ করে।
+          - article "2 / 4" [ref=e37]:
+            - generic [ref=e39]:
+              - heading "ময়ূর, কবুতর, মুরগি ও পোষা শৌখিন পাখির জন্য" [level=3] [ref=e40]
+              - paragraph [ref=e41]: প্রোটিন চাহিদা পূরণ করে, দৈহিক বৃদ্ধি ও ডিম উৎপাদন বাড়ায়।
+          - article "3 / 4" [ref=e42]:
+            - generic [ref=e44]:
+              - heading "তক্ষক, গিরগিটি, কচ্ছপ ও সরীসৃপের জন্য" [level=3] [ref=e45]
+              - paragraph [ref=e46]: পোষা সরীসৃপের সবচেয়ে প্রিয় লাইভ খাবার।
+          - article "4 / 4" [ref=e47]:
+            - generic [ref=e49]:
+              - heading "নিজে সুপারওয়ার্ম উৎপাদন করুন" [level=3] [ref=e50]
+              - paragraph [ref=e51]: মাদার পোকা কিনে বাড়িতেই সহজে নিজের সুপারওয়ার্ম তৈরি করুন।
+        - generic [ref=e52]:
+          - button "আগের স্লাইড" [ref=e53] [cursor=pointer]: ‹
+          - generic [ref=e54]:
+            - button "স্লাইড 1" [ref=e55]
+            - button "স্লাইড 2" [ref=e56]
+            - button "স্লাইড 3" [ref=e57]
+            - button "স্লাইড 4" [ref=e58]
+          - button "পরের স্লাইড" [ref=e59] [cursor=pointer]: ›
+    - list [ref=e60]:
+      - listitem [ref=e61]:
+        - paragraph [ref=e62]: অর্গানিক
+        - paragraph [ref=e63]: প্রাকৃতিক খাবার দিয়ে উৎপাদিত
+      - listitem [ref=e64]:
+        - paragraph [ref=e65]: নিজস্ব খামারে তৈরি
+        - paragraph [ref=e66]: বাড়িতে লালন-পালন করা পোকা
+      - listitem [ref=e67]:
+        - paragraph [ref=e68]: ভালো মান ও ফ্রেশ
+        - paragraph [ref=e69]: জীবন্ত ও ফ্রেশ অবস্থায় পাঠানো হয়
+    - generic [ref=e70]:
+      - heading "কি কি পাওয়া যায়" [level=2] [ref=e71]
+      - generic [ref=e72]:
+        - link [ref=e73] [cursor=pointer]:
+          - /url: /products/beetle-larvae
+          - heading "বিটল লার্ভা (সুপারওয়ার্ম)" [level=3] [ref=e74]
+          - paragraph [ref=e75]: অর্গানিক পদ্ধতিতে, নিজস্ব খামারে তৈরি ভালো মানের লাইভ সুপারওয়ার্ম। ফ্রেশ অবস্থায় পাঠানো হয়।
+        - link [ref=e76] [cursor=pointer]:
+          - /url: /products/beetle-mother
+          - heading "বিটল মাদার পোকা" [level=3] [ref=e77]
+          - paragraph [ref=e78]: নিজে সুপারওয়ার্ম উৎপাদন করতে চাইলে এই মাদার পোকা দিয়ে শুরু করুন।
+    - generic [ref=e80]:
+      - heading "কীভাবে অর্ডার করবেন" [level=2] [ref=e81]
+      - list [ref=e82]:
+        - listitem [ref=e83]:
+          - generic [ref=e84]: "1"
+          - generic [ref=e85]: পণ্য পছন্দ করুন
+        - listitem [ref=e86]:
+          - generic [ref=e87]: "2"
+          - generic [ref=e88]: অর্ডার ফর্ম পূরণ করুন
+        - listitem [ref=e89]:
+          - generic [ref=e90]: "3"
+          - generic [ref=e91]: হোয়াটসঅ্যাপে অর্ডার কনফার্ম করুন
+        - listitem [ref=e92]:
+          - generic [ref=e93]: "4"
+          - generic [ref=e94]: ডেলিভারির পর টাকা পরিশোধ করুন
+    - generic [ref=e95]:
+      - heading "ডেলিভারি ও পেমেন্ট" [level=2] [ref=e96]
+      - list [ref=e97]:
+        - listitem [ref=e98]: ঢাকা, নরসিংদী ও নারায়ণগঞ্জে নিজস্ব লোকের মাধ্যমে অথবা স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e99]: সারা দেশে স্টেডফাস্ট কুরিয়ারে ডেলিভারি।
+        - listitem [ref=e100]: ডেলিভারি চার্জ হোয়াটসঅ্যাপে নিশ্চিত করা হবে।
+        - listitem [ref=e101]: ক্যাশ অন ডেলিভারি। পণ্য হাতে পেয়ে টাকা দিন।
+  - contentinfo [ref=e102]:
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - paragraph [ref=e105]: মিয়া ফার্মিং
+        - paragraph [ref=e106]: পাঁচদোনা, নরসিংদী
+      - generic [ref=e107]:
+        - heading "যোগাযোগ করুন" [level=2] [ref=e108]
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "হোয়াটসঅ্যাপ +880 1775-886352" [ref=e111] [cursor=pointer]:
+              - /url: https://wa.me/8801775886352
+              - generic [ref=e114]:
+                - generic [ref=e115]: হোয়াটসঅ্যাপ
+                - generic [ref=e116]: +880 1775-886352
+          - listitem [ref=e117]:
+            - link "ফেসবুক পেজ কৃষি ধরণী (Krishi Dharani)" [ref=e118] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%A7%E0%A6%B0%E0%A6%A3%E0%A7%80-Krishi-Dharani/61573546265465/
+              - generic [ref=e121]:
+                - generic [ref=e122]: ফেসবুক পেজ
+                - generic [ref=e123]: কৃষি ধরণী (Krishi Dharani)
+    - generic [ref=e125]:
+      - paragraph [ref=e126]: © 2026 মিয়া ফার্মিং। সর্বস্বত্ব সংরক্ষিত।
+      - paragraph [ref=e127]:
+        - text: Developed by
+        - link "Hafizul Haque" [ref=e128] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/hafizul-haque/
+  - link "WhatsApp-এ চ্যাট করুন" [ref=e129] [cursor=pointer]:
+    - /url: https://wa.me/8801775886352
+    - generic [ref=e132]: চ্যাট করুন

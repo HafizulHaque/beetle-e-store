@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
+import imageVariants from "./image-variants.json";
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
-  images: { unoptimized: true },
+  images: {
+    loader: "custom",
+    loaderFile: "./util/image-loader.ts",
+    imageSizes: [imageVariants.widths[0]],
+    deviceSizes: imageVariants.widths.slice(1),
+  },
   experimental: {
     agentUpgrade: "security",
   },

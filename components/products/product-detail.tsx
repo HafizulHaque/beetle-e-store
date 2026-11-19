@@ -35,8 +35,8 @@ export function ProductDetail({ product, related }: ProductDetailProps) {
               src={product.image}
               alt={product.imageAlt}
               fill
-              priority
-              sizes="(min-width: 768px) 50vw, 100vw"
+              preload
+              sizes="(min-width: 1024px) 480px, (min-width: 768px) calc((100vw - 64px) / 2), calc(100vw - 32px)"
               className="object-cover"
             />
           </div>

@@ -16,6 +16,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Responsive images
+
+The static export uses local WebP variants instead of Next.js's runtime image optimizer.
+When adding or replacing a product photo or homepage slide, add its JPG path to
+`image-variants.json`, run `pnpm images`, and commit the generated WebP files.
+Run the same command after replacing the header logo.
+The loader uses the original file for images not listed in the manifest. Keep
+the configured widths and generated variants in sync.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

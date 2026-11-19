@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { HOME } from "@/contents";
 import { getProduct, productPath } from "@/lib";
+import { usePageLoaded } from "./use-page-loaded";
 
 const products = HOME.hero.productSlugs.flatMap((slug) => {
   const product = getProduct(slug);
@@ -14,16 +15,17 @@ const products = HOME.hero.productSlugs.flatMap((slug) => {
 export function HeroImage() {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
+  const pageLoaded = usePageLoaded();
 
   useEffect(() => {
-    if (paused || products.length < 2) return;
+    if (!pageLoaded || paused || products.length < 2) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const id = window.setInterval(
       () => setActive((i) => (i + 1) % products.length),
       HOME.hero.imageIntervalMs,
     );
     return () => window.clearInterval(id);
-  }, [paused]);
+  }, [pageLoaded, paused]);
 
   return (
     <div
@@ -43,14 +45,16 @@ export function HeroImage() {
             i === active ? "opacity-100" : "pointer-events-none opacity-0"
           }`}
         >
-          <Image
-            src={product.image}
-            alt={product.imageAlt}
-            fill
-            priority={i === 0}
-            sizes="(min-width: 768px) 480px, 100vw"
-            className="object-cover object-center"
-          />
+          {(i === 0 || pageLoaded) && (
+            <Image
+              src={product.image}
+              alt={product.imageAlt}
+              fill
+              preload={i === 0}
+              sizes="(min-width: 1024px) 484px, (min-width: 768px) calc((100vw - 56px) / 2), calc(100vw - 32px)"
+              className="object-cover object-center"
+            />
+          )}
         </Link>
       ))}
     </div>

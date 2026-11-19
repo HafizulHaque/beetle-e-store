@@ -1,0 +1,3 @@
+[   15065ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8765/products/beetle-mother/__next.products.$d$slug.__PAGE__.txt?_rsc=O1J9P368Hg4QOFED:1
+[   15097ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8765/products/beetle-larvae/__next.products.$d$slug.__PAGE__.txt?_rsc=O1J9P368Hg4QOFED:1
+[   15615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:8765/products/__next.products.__PAGE__.txt?_rsc=u2Wueao__XdOruSe:1

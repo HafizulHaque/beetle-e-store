@@ -1,0 +1,12 @@
+{
+  "widths": [256, 480, 768, 960],
+  "logo": { "src": "/images/miah-farming-logo.png", "width": 264 },
+  "sources": [
+    "/images/superworm.jpg",
+    "/images/beetle-mother.jpg",
+    "/images/slides/fish-aquarium-live-food.jpg",
+    "/images/slides/birds-live-food-nutrition.jpg",
+    "/images/slides/reptiles-live-food-nutrition.jpg",
+    "/images/slides/grow-your-own-superworm-breeding.jpg"
+  ]
+}

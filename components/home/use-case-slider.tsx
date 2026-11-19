@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { HOME } from "@/contents";
 import { Button } from "@/components/ui";
+import { usePageLoaded } from "./use-page-loaded";
 
 const { slides, intervalMs } = HOME.useCase;
 
@@ -15,6 +16,7 @@ export function UseCaseSlider() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const pageLoaded = usePageLoaded();
 
   useEffect(() => {
     if (paused) return;
@@ -68,13 +70,15 @@ export function UseCaseSlider() {
             className="w-full shrink-0 snap-start"
           >
             <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-brand">
-              <Image
-                src={slide.src}
-                alt={slide.alt}
-                fill
-                sizes="(min-width: 768px) 768px, 100vw"
-                className="object-cover"
-              />
+              {(i === 0 || i === index || pageLoaded) && (
+                <Image
+                  src={slide.src}
+                  alt={slide.alt}
+                  fill
+                  sizes="(min-width: 800px) 768px, calc(100vw - 32px)"
+                  className="object-cover"
+                />
+              )}
             </div>
             <div className="mt-3 px-1">
               <h3 className="text-lg font-bold text-ink">{slide.title}</h3>
