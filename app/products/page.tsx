@@ -7,7 +7,6 @@ export const metadata = pageMetadata({
   description: SEO.products.description,
   path: ROUTES.products,
   image: "/images/superworm.jpg",
-  shareSize: { width: 1200, height: 800 },
 });
 
 export default function ProductsPage() {

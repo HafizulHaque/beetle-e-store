@@ -22,7 +22,6 @@ export async function generateMetadata({
     description: product.description,
     path: productPath(product.slug),
     image: product.image,
-    shareSize: { width: 1200, height: 800 },
   });
 }
 
