@@ -6,14 +6,16 @@ type PageMetadataInput = {
   description: string;
   path: string;
   image?: string;
+  /** Dimensions of the `-share.jpg` copy; defaults to 1200x630. */
+  shareSize?: { width: number; height: number };
   noindex?: boolean;
 };
 
 /** Per-page metadata. Titles are wrapped by the root layout's title template. */
-export function pageMetadata({ title, description, path, image, noindex }: PageMetadataInput): Metadata {
-  // `<name>-share.jpg` is a 1200x630 copy under 150 KB: WhatsApp drops larger previews.
+export function pageMetadata({ title, description, path, image, shareSize, noindex }: PageMetadataInput): Metadata {
+  // `<name>-share.jpg` is a copy under 150 KB: WhatsApp drops larger previews.
   const share = image?.replace(/\.jpg$/, "-share.jpg");
-  const images = share ? [{ url: share, width: 1200, height: 630 }] : undefined;
+  const images = share ? [{ url: share, ...(shareSize ?? { width: 1200, height: 630 }) }] : undefined;
   return {
     title,
     description,

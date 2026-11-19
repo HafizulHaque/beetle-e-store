@@ -1,12 +1,13 @@
 import { ProductsIntro, ProductList } from "@/components/products";
-import { PRODUCTS_PAGE, ROUTES, SEO } from "@/contents";
+import { ROUTES, SEO } from "@/contents";
 import { pageMetadata } from "@/util/metadata";
 
 export const metadata = pageMetadata({
   title: SEO.products.title,
   description: SEO.products.description,
   path: ROUTES.products,
-  image: PRODUCTS_PAGE.offerImage,
+  image: "/images/superworm.jpg",
+  shareSize: { width: 1200, height: 800 },
 });
 
 export default function ProductsPage() {
