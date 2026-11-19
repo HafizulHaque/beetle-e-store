@@ -2,11 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
   experimental: {
     agentUpgrade: "security",
   },
-  cacheComponents: true,
-  partialPrefetching: true,
   async headers() {
     return [
       {

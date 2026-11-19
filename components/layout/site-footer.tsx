@@ -2,7 +2,6 @@ import { BUSINESS, CONTACT, DEVELOPER, FOOTER } from "@/contents";
 import { ContactLinks } from "./contact-links";
 
 async function getCopyrightYear() {
-  "use cache";
   return new Date().getFullYear();
 }
 

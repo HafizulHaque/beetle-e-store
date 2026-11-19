@@ -29,8 +29,8 @@ Miah Farming: a Bangla-language storefront selling live beetle larvae and mother
 - Every folder under `lib/`, `util/`, `contents/`, and `components/` has an `index.ts` barrel. Import from the barrel (`@/components/home`, `@/contents`, `@/util`) from outside the folder. Files inside the same folder import each other directly (e.g. `./contact-links`) to avoid circular imports.
 - Styling is Tailwind CSS v4. `app/globals.css` defines the brand palette (`--color-brand` yellow, `--color-ink` black) via `@theme inline`, so classes like `bg-brand` and `text-ink` work. `next.config.ts` wires `@tailwindcss/turbopack` as a Turbopack CSS loader.
 - `next.config.ts` enables several non-default features that shape how code should be written:
-  - `cacheComponents: true`: pages render a static shell by default. Request-time reads (cookies, headers, `connection()`, uncached fetches) must sit behind `<Suspense>`, and data work is cached with `"use cache"`.
-  - `partialPrefetching: true` and `experimental.agentFeedback: true`.
+  - `output: "export"` (static export): Cache Components is not supported with static export in Next 16.4.6, so `cacheComponents` and `partialPrefetching` are off. Pages are prerendered at build time, and `app/robots.ts` and `app/sitemap.ts` use `export const dynamic = "force-static"`. Do not add `"use cache"` or `cacheComponents`-only features.
+  - `experimental.agentUpgrade: "security"`.
 - Static assets live in `public/`, referenced by absolute path (e.g. `/images/superworm.jpg`).
 - The home page has a use-case slider (`components/home/use-case-slider.tsx`, autoplay interval from `HOME.useCase.intervalMs`). Its slides are JPEG images in `public/images/slides/` (SEO-named, e.g. `fish-aquarium-live-food.jpg`), listed in `HOME.useCase.slides` in `contents/home.ts`. Add new slides by adding an image there and a matching entry.
 - `components/home/trust-strip.tsx` shows the organic, home-grown, and quality messages on the home page.
